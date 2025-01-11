@@ -1,5 +1,6 @@
 import { fullBlog } from "../../../lib/interface";
-import client, { urlFor } from "../../../sanity/lib/client";
+import {client} from "../../../sanity/lib/client"; // Update this import path
+import { urlFor } from "../../../sanity/lib/client";
 import { PortableText } from "next-sanity";
 import Image from "next/image";
 
