@@ -1,7 +1,8 @@
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import { simpleBlogCard } from "../lib/interface";
-import { client, urlFor } from "../sanity/lib/client";
+import client from '../sanity/lib/client';
+import { urlFor } from "../sanity/lib/client";
 import Image from "next/image";
 import Link from "next/link"; 
 
